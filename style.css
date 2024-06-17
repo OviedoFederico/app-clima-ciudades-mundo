@@ -1,0 +1,77 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-image: url(assets/img/curiosidades_494961313_153077108_1706x960.webp);
+  background-size: cover;
+  color: black;
+  overflow-x: hidden;
+  height: 100vh;
+  display: grid;
+  align-content: center;
+}
+
+.container {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  max-width: 30%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(05.59deg, #047a76 0%, #006a66 25%, #003735 75%);
+  box-shadow: 0px 20px 60px rgb(31, 31, 31);
+  border-radius: 20px;
+}
+
+h1 {
+  color: white;
+  text-transform: uppercase;
+}
+
+h2,
+p {
+  color: white;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 40%;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bolder;
+  background-color: aqua;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+#responseData {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+#responseData > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url(assets/img/curiosidades_494961313_153077108_1706x960.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    overflow-x: hidden;
+    height: 100vh;
+  }
+
+  .container {
+    max-width: 80%;
+    margin-top: 10px;
+  }
+}
